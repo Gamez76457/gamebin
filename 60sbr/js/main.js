@@ -25,10 +25,10 @@ var MainState = {
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
         game.stage.backgroundColor = "#000000";
-        game.load.image('black', 'assets/img/black.gif');
-        game.load.image('rotateDevice', 'assets/img/rotateDevice.gif');
-        game.load.image('loading1', 'assets/img/loading1.gif');
-        game.load.image('preloadBar', 'assets/img/preloadBar.gif');
+        game.load.image('black', 'https://gamez76457.github.io/gamebin/60sbr/assets/img/black.gif');
+        game.load.image('rotateDevice', 'https://gamez76457.github.io/gamebin/60sbr/assets/img/rotateDevice.gif');
+        game.load.image('loading1', 'https://gamez76457.github.io/gamebin/60sbr/assets/img/loading1.gif');
+        game.load.image('preloadBar', 'https://gamez76457.github.io/gamebin/60sbr/assets/img/preloadBar.gif');
     },
     create: function() {
         game.splashCT = 60 * 3;
@@ -211,4 +211,5 @@ function muResume() {
 function soundsDecoded() {
     mu.play(null, 0, vol * mu.xVol, mu.loop);
     setMuFXBtns();
-}
+}
+
